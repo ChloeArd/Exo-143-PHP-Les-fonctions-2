@@ -11,14 +11,12 @@ $exo1();
 function exo2 ($prenom){
     echo $prenom."<br>";
 }
-
 exo2("Chloé");
 
 //exercice 3
 function exo3 ($prenom, $nom){
     echo $prenom." ".$nom."<br>";
 }
-
 exo3("Chloé", "Ardoise");
 
 //Exercice 4
@@ -37,14 +35,12 @@ exo4(2, 5);
 function exo5 ($nombre, $string){
     echo $nombre." ".$string."<br>";
 }
-
 exo5(3, "chats");
 
 //exercice 6
 function exo6 ($nom, $prenom, $age){
     echo "Bonjour $nom $prenom, tu as $age ans <br>";
 }
-
 exo6("Ardoise", "Chloé", 18);
 
 //exercice 7
@@ -64,9 +60,8 @@ function exo7 ($age, $genre){
 }
 exo7(18, "Femme");
 
-//ecercice 8
+//exercice 8
 function exo8 ($nombre1, $nombre2, $nombre3){
     echo $nombre1 + $nombre2 + $nombre3;
 }
-
 exo8(10, 3, 29);
